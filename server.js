@@ -51,7 +51,7 @@ app.delete('/customers/:id', function(req, res) {
     res.json(data);
 });
 
-app.listen(8000);
+app.listen(8080);
 
 console.log('Express listening on port 8000');
 
